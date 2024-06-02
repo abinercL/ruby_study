@@ -1,0 +1,1 @@
+Esse repositorio sera apenas para exercicios do curso de ruby na pratica
