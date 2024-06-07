@@ -21,7 +21,6 @@ calculo = altura ** 2
 
 imc = peso / calculo
 
-
 if imc <= 17
   puts "Muito abaixo do peso! #{imc}"
 elsif imc <= 18.49
