@@ -10,22 +10,14 @@ nota = gets.chomp.to_i
 
 if nota < 0 or nota > 100
   puts "Nota inválida! Digite uma nota entre 0 e 100!"
+elsif nota <= 20
+  puts "Conceito E"
+elsif nota <= 40
+  puts "Conceito D"
+elsif nota <= 60
+  puts "Conceito C"
+elsif nota <= 80
+  puts "Conceito B"
 else
-  if nota <= 20
-    puts "Conceito E"
-  else
-    if nota <= 40
-      puts "Conceito D"
-    else
-      if nota <= 60
-        puts "Conceito C"
-      else
-        if nota <= 80
-          puts "Conceito B"
-        else
-          puts "Conceito A"
-        end
-      end
-    end
-  end
+  puts "Conceito A"
 end
