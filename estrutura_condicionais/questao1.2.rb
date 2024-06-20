@@ -13,10 +13,10 @@ b = gets.chomp.to_i
 puts"Digite o valor para C"
 c = gets.chomp.to_i
 
-    if a == b && b == c
-        puts"Boa você tem agora um trinagulo equilatero!!"
-    elsif a == b && b != c
-        puts"Boa você tem agora um triangulo isóseles!!"
-    else a != b && b != c
-        puts"Boa você tem agora um triangulo escaleno!!"
+if a == b && b == c
+    puts"Boa você tem agora um trinagulo equilatero!!"
+elsif a == b && b != c
+    puts"Boa você tem agora um triangulo isóseles!!"
+else a != b && b != c
+    puts"Boa você tem agora um triangulo escaleno!!"
 end 
